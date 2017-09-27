@@ -6,6 +6,8 @@ This repository will contain all the information required to succeed in the Ever
 
 Make sure to check out the [Wiki](https://github.com/telstra/EverythingIoT2017/wiki) page to access the Getting Started guide!
 
-We'll also be updating the Tips and Tricks page regularly, so check it out if you want some sweet, sweet knowledge.
+We have also added example code to enable the CAT-1 shield to communicate with Microsoft Azure IoT Hub Platform. 
 
-We've also uploaded some example code for you to access, as well as documentation so you can learn all about the Telstra Cat-1 Shield.
+# Acknowledgments
+
+The example code has been made available by [Dave Glover](https://github.com/gloveboxes/Arduino-101-Testra-Cat-1-LTE-Shield-Secure-Http-Azure-IoT-Hub-Client). 
