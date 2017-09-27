@@ -1,4 +1,4 @@
-# EverythingIoT2017
+# Everything IoT Hackathon 2017
 
 Welcome to Everything IoT Hackathon 2017
 
