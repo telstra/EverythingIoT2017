@@ -1,6 +1,6 @@
-# Everything IoT Hackathon 2017
+# Everything IoT HackLab 2017
 
-Welcome to Everything IoT Hackathon 2017!!!
+Welcome to Everything IoT HackLab 2017!!!
 
 This repository will contain all the information required to succeed in the Everything IoT Hackathon.
 
