@@ -2,7 +2,7 @@
 
 void Cat1Shield::measure()
 {
-  temperature = pressure = humidity = 0;
+  temperature = light = 0;
   char temp[20];
   char lum[15];
 

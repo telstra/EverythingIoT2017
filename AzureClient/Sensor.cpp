@@ -3,8 +3,7 @@
 void Sensor::measure()
 {
   temperature = 25;
-  humidity = 50;
-  pressure = 1000;
+  light = 36;
 }
 
 char *Sensor::toJSON()
