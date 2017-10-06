@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\dglover\\AppData\\Local\\Arduino15\\packages\\Intel\\hardware\\arc32\\1.0.6\\cores\\arduino"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "C:\\Users\\dglover\\AppData\\Local\\Arduino15\\packages\\Intel\\hardware\\arc32\\1.0.6\\cores\\arduino"
+                ]
+            }
+        }
+    ]
+}
