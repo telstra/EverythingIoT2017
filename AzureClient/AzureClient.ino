@@ -73,6 +73,12 @@ void loop()
     if (timeMgr.SetTime())
     {
 
+       /* Add sensor measurements functions in here! Or, you can add them
+        *  in Cat1shield.cpp.
+        * To change the JSON structure, head to the Sensor.cpp
+        * and Sensor.h library
+        */
+          
         Serial.println(F("******* Reading Measurements *********"));
         collectMeasurements();
       
@@ -103,43 +109,3 @@ void collectMeasurements() {
         Serial.println(sensor.light);
 }
 
-
-
-/*String sendJSensorPayload(const char *image, int id)
-{
-  int startChar = 0;
-  time_t start;
-
-  String jsonStart = "{\"ImageId\":\"" + String(id) + "\", \"Mem\":" + String(freeMemory()) + ",\"MsgId\":" + String(msgId++) + ",\"Schema\":\"Image\",\"Image\":\"";
-  String jsonEnd = "\"}";
-
-  int imageLength = strlen(image);
-  Serial.print("Image Size: ");
-  Serial.println(imageLength);
-  
-  start = now();
-
-  contentLength = jsonStart.length();
-  contentLength += jsonEnd.length();
-  contentLength += imageLength;
-
-  hub.sendBegin(contentLength);
-  hub.sendData(jsonStart);
-
-  // now stream the image in segmentLength byte chunks
-  while (startChar + segmentLength < imageLength)
-  {
-    hub.sendData(image + startChar, segmentLength);
-    startChar += segmentLength;
-  }
-
-  // send remaining bytes in image
-  hub.sendData(image + startChar, imageLength - startChar);
-  hub.sendData(jsonEnd);
-  
-  String result = "Response: " + hub.sendEnd();
-
-  result += ", Seconds: " + String(now() - start);
-
-  return result;
-}*/

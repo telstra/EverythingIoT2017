@@ -11,4 +11,5 @@ void Cat1Shield::measure()
 
   shield->getLightLevel(lum);
   light = atoi(lum);
+  
 }

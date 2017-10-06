@@ -18,8 +18,9 @@ public:
   char *toJSON();
 
   float temperature;
-  float humidity;
-  int pressure;
+  //float acc_x;
+  //float acc_y;
+  //float acc_z;
   int light;
   int msgId;
   const char *geo;

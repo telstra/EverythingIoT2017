@@ -17,8 +17,9 @@ char *Sensor::toJSON()
   JsonObject &root = jsonBuffer.createObject();
 
   root["Celsius"] = temperature;
-  root["Humidity"] = humidity;
-  root["hPa"] = pressure;
+  //root["Acc_x"] = acc_x;
+  //root["Acc_y"] = acc_y;
+  //root["Acc_z"] = acc_z;
   root["Light"] = light;
   root["Geo"] = geo;
   root["Schema"] = 1;
